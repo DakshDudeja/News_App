@@ -19,7 +19,6 @@ sqlparse==0.4.1
 tornado==6.1
 urllib3==1.26.5
 virtualenv==20.4.7
-Django==3.1.5
 django-cors-headers==3.7.0
 django-heroku==0.3.1
 djangorestframework==3.12.2
