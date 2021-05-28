@@ -26,13 +26,13 @@
         <button type="submit" value="Search">Search</button>
     </form> -->
 
-    <div class="container">
+    <div class="container" style="max-width: 800px;">
         <div class="row">
             <div class="col-sm-6">
 
                 {% for i in articles %}
 
-                    <div class="card rounded shadow-lg m-2" style="width: 25rem;">
+                    <div class="card rounded shadow-lg m-2" style="width: 45rem;">
                         <img src="{{i.urlToImage}}" class="card-img-top" alt="...">
                         <div class="card-body">
                         <p class="card-title">{{ i.author }}</p>
